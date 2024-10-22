@@ -1,0 +1,27 @@
+* {
+  font-family: "Heebo";
+  font-weight: 500;
+}
+
+:root {
+  --color-light: #f4f5f9;
+}
+
+.bg-color-gray {
+  background-color: var(--color-light);
+}
+
+.min-vh-60 {
+  min-height: 60vh;
+}
+.max-vh-60 {
+  max-height: 60vh;
+}
+
+.row-span-2 {
+  grid-row: span 2;
+}
+
+.card {
+  border: none;
+}
